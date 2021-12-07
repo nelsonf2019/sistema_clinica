@@ -1,0 +1,61 @@
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.exe.config
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.exe
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.pdb
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csprojResolveAssemblyReference.cache
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.FormPrincipal.resources
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Properties.Resources.resources
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csproj.GenerateResource.Cache
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.exe
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.pdb
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form1.resources
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form2.resources
+D:\Programacion\TUT YOUTUBE\Tutoriales #3\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form3.resources
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.exe.config
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.exe
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.pdb
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.exe
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.pdb
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csprojResolveAssemblyReference.cache
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form1.resources
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form2.resources
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form3.resources
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.FormPrincipal.resources
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Properties.Resources.resources
+D:\Programacion\PostWork\PRUEBAS 1\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csproj.GenerateResource.Cache
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.exe.config
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.exe
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.pdb
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csprojAssemblyReference.cache
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form1.resources
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form2.resources
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form3.resources
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.FormPrincipal.resources
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Properties.Resources.resources
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csproj.GenerateResource.cache
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csproj.CoreCompileInputs.cache
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.exe
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.pdb
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.FrmLogin.resources
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csproj.CopyComplete
+F:\Descargas PC Disco Solido\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form5.resources
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.exe.config
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.exe
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\bin\Debug\ModernGUI_V3.pdb
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csprojAssemblyReference.cache
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form1.resources
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form2.resources
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Form3.resources
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.FrmLogin.resources
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.FormPrincipal.resources
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.Properties.Resources.resources
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csproj.GenerateResource.cache
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csproj.CoreCompileInputs.cache
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.csproj.CopyComplete
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.exe
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.pdb
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.FrmNuevoPaciente.resources
+C:\Users\Nelson\Desktop\ModernGUI_V3\ModernGUI_V3\obj\Debug\ModernGUI_V3.FrmCombo.resources

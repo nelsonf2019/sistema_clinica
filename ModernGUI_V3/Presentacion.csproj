@@ -1,0 +1,448 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E0F5AD57-4FF3-4A5F-AC3E-FA1585F7B566}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ModernGUI_V3</RootNamespace>
+    <AssemblyName>ModernGUI_V3</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ClsVariables.cs" />
+    <Compile Include="FormPacientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPacientes.Designer.cs">
+      <DependentUpon>FormPacientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmTurnos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmTurnos.Designer.cs">
+      <DependentUpon>FrmTurnos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form5.Designer.cs">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmCombo.Designer.cs">
+      <DependentUpon>FrmCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Settings.cs" />
+    <EmbeddedResource Include="FormPacientes.resx">
+      <DependentUpon>FormPacientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmTurnos.resx">
+      <DependentUpon>FrmTurnos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form5.resx">
+      <DependentUpon>Form5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmCombo.resx">
+      <DependentUpon>FrmCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 y x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Minimize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Health-PNG-Image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono-medico_23-2147504929.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\users_21942.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phone-book %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reanudar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reanudar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491313938-close_82982.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1491313938-close_829821.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close_Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1485969927-6-cross_78905.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %286%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancel %287%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\to-do.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\windowmaximize_104286.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-medical-record.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\005-cardiovascular.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\002-enfermera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\003-medical-record1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\008-reporte.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medicamento.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Medicamento 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historia medica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\historia medica2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Jeringa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\38_-_6_-_Medical_Drip.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono de un suero.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono de medico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43071.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\v211batch11-filmful-652-medical.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthcare.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthcare1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dubitat-app-contacto-medico-paciente-810x540.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\docotores.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONO FACE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ICONO TIWITTER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentro %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentro %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentro %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentro %283%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dentro %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimizar %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Corazon Clinico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stock-vector-doctor-icon-434128261.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono Medico.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dubitat-app-contacto-medico-paciente-810x5401.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-physician-flat-design-icon-vector-doctor-medical-record-material-5a99ac59e7df51.1122815915200205699498.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iconousuariosmedicos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary1\Dominio.csproj">
+      <Project>{aa06a80f-a980-44c9-83f1-888df8d48532}</Project>
+      <Name>Dominio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forceexit_103817.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cancelar %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_document_file_icon_123491.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asistencia-medica.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\doctor %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cirujano.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_print_icon_123489 %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\garbage_78344.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printer_78349.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\casa %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patient.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
